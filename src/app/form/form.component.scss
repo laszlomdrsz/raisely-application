@@ -1,0 +1,31 @@
+.container {
+    max-width: 300px;
+    margin: 20vh auto;
+}
+
+.container button {
+    display: block;
+    margin: 10px auto;
+}
+
+mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="email"] {
+    width: calc(100% - 40px);
+    float: left;
+}
+
+.email-spinner {
+    width: 40px;
+    position: absolute;
+    top: -5px;
+}
+
+.submit-spinner {
+    width: 40px;
+    display: block;
+    margin: 10px auto;
+}
